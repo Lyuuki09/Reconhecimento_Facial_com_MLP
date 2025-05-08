@@ -42,5 +42,18 @@ Veja detalhes de cada etapa e exemplos de comandos nas próximas seções (em co
 - Entrada do modelo: vetor de pixels da imagem.
 - Permitido usar bibliotecas de detecção facial (OpenCV, MTCNN, mediapipe).
 
-## Créditos
-Projeto acadêmico para disciplina de IA/Visão Computacional. 
+
+---
+
+## Observação sobre a pasta `venv`
+A pasta `venv` contém o ambiente virtual Python utilizado para instalar as dependências do projeto localmente. **Não inclua a pasta `venv` no controle de versão (Git)**, pois ela é específica de cada máquina e pode ser recriada a qualquer momento usando o comando:
+
+```
+python -m venv venv
+```
+
+Para instalar as dependências após criar o ambiente virtual, utilize:
+
+```
+pip install -r requirements.txt
+``` 
