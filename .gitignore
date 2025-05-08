@@ -1,0 +1,16 @@
+# Ambiente virtual Python
+venv/
+
+# Arquivos de cache do Python
+__pycache__/
+*.py[cod]
+
+# Arquivos de log
+*.log
+
+# Configurações do VS Code
+.vscode/
+
+# Outros arquivos comuns a ignorar
+*.env
+*.DS_Store 

@@ -1,0 +1,20 @@
+# Configurações do experimento
+
+data:
+  raw_dir: data/raw
+  processed_dir: data/processed
+  img_size: 64  # Tamanho para redimensionamento dos rostos (img_size x img_size)
+
+train:
+  batch_size: 32
+  epochs: 50
+  lr: 0.001
+  val_split: 0.2
+  seed: 42
+
+model:
+  hidden_layers: [512, 256, 128]
+  dropout: 0.3
+
+weights:
+  save_path: weights/best_model.pth 
